@@ -1,15 +1,27 @@
 {
   "name": "wearerequired/varnish-extended",
-  "description": "Extends Varnish HTTP Purge to purge the cache on multiple backends.",
+  "description": "WordPress plugin to extend Varnish HTTP Purge to purge the cache on multiple backends.",
   "type": "wordpress-plugin",
+  "homepage": "https://github.com/wearerequired/varnish-extended",
   "license": "GPL-2.0+",
   "authors": [
-    {
-      "name": "required",
-      "email": "info@required.ch",
-      "homepage": "https://required.com",
-      "role": "Developer"
-    }
+      {
+          "name": "required",
+          "email": "info@required.ch",
+          "homepage": "https://required.com",
+          "role": "Company"
+      },
+      {
+          "name": "Dominik Schilling",
+          "email": "dominik@required.ch",
+          "role": "Developer"
+      }
+  ],
+  "keywords": [
+      "wordpress",
+      "varnish",
+      "cache",
+      "purge"
   ],
   "require": {
     "php": ">=7.0"
