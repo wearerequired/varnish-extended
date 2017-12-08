@@ -25,6 +25,13 @@ function get_varnish_backends() {
 		$varnish_backends = (array) VARNISH_BACKENDS;
 	}
 
+	/**
+	 * Filters the list of Varnish backends.
+	 *
+	 * @since 1.0.0
+	 *
+	 * @param array $varnish_backends An array of Varnish backends.
+	 */
 	return apply_filters( 'varnish_extended.varnish_backends', $varnish_backends );
 }
 

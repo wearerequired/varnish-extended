@@ -5,4 +5,4 @@ Extends [Varnish HTTP Purge](https://wordpress.org/plugins/varnish-http-purge/) 
 ## Installation
 
 1. Install the plugin.
-1. Define `VARNISH_BACKENDS` in your wp-config.php file. Example: `define( 'VARNISH_BACKENDS', [ '127.0.0.1:6081', '127.0.0.2:6081' ] );`
+1. Define `VARNISH_BACKENDS` in your wp-config.php file. Example: `define( 'VARNISH_BACKENDS', [ '127.0.0.1:6081', '127.0.0.2:6081' ] );`. Or use the `varnish_extended.varnish_backends` filter.
